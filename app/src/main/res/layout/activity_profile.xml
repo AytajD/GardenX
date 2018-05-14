@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dadashovaaytaj.gardenx.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/flower_profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/first" />
+
+    <TextView
+        android:id="@+id/nameOfFlow"
+        android:layout_width="wrap_content"
+        android:text="Lake"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/backgroundColor"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_gravity="center"
+        android:text="Chat"
+        android:textColor="@color/white"
+        android:onClick="openChat"
+        android:background="@drawable/clicking_to_button"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_gravity="center"
+        android:text="Status"
+        android:textColor="@color/white"
+        android:background="@drawable/clicking_to_button"
+        android:layout_height="60dp"
+        android:onClick="openStatusActivity"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_gravity="center"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:onClick="openWebView"
+        android:background="@drawable/clicking_to_button"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Log out"
+        android:textColor="@color/backgroundColor"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_exit"
+        android:background="@drawable/logout_button_style"
+        android:layout_height="40dp"
+        android:onClick="LogOut"/>
+    </LinearLayout>
+</LinearLayout>

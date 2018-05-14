@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GardenX</string>
+    <string name="log_in">log in</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="my_flowers">My Flowers</string>
+    <string name="select_flower">Select your flower</string>
+    <string name="go">Go</string>
+    <string name="aytaj_dadashova">Aytaj Dadashova</string>
+    <string name="chat">Chat</string>
+</resources>

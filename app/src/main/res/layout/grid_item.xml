@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/flower_image"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/first" />
+
+    <FrameLayout
+        android:id="@+id/underImage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:background="@color/select_flow"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/flower_name"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Jemy"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/backgroundColor"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/goButton"
+            android:layout_width="48dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="end"
+            android:textColor="@color/backgroundColor"
+            android:text="@string/go"
+            android:background="@drawable/go_button_style" />
+
+    </FrameLayout>
+
+</LinearLayout>
